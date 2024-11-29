@@ -1,4 +1,4 @@
-import 'package:first_app/view/arithmetic_view.dart';
+import 'package:first_app/view/dashboard.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -8,9 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: const ArithmeticView(),
-      ),
+      home: const Dashboard(),
     );
   }
 }
